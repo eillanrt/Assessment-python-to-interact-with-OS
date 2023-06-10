@@ -1,0 +1,5 @@
+There are 8 employees in Marketing
+There are 6 employees in Finance
+There are 7 employees in Sales
+There are 6 employees in Human Resources
+There are 12 employees in Engineering
