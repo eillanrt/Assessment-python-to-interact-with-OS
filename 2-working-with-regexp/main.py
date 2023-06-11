@@ -35,7 +35,7 @@ with open('accounts.csv', 'r') as accounts:
                             'Name', 'Email Address', 'Occupation'])
     for account in reader:
         old_email_address = account.get('Email Address')
-        updated_email_address = change_domain(old_email_address, 'yahoo.com')
+        updated_email_address = change_domain(old_email_address, 'example.xyz')
         account['Email Address'] = updated_email_address
         data.append(account)
 
