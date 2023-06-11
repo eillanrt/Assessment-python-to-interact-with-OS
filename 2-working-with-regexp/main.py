@@ -41,10 +41,10 @@ with open('accounts.csv', 'r') as accounts:
 
 # Create an updated csv file
 
-with open('accounts_updated.csv', 'w') as accounts_updated:
+with open('accounts_updated.csv', 'w', newline='') as accounts_updated:
     writer = csv.DictWriter(accounts_updated, fieldnames=[
                             'Name', 'Email Address', 'Occupation'])
-    writer.writeheader()
+    # writer.writeheader()
 
     for value in data:
         writer.writerow(value)
