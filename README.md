@@ -6,4 +6,4 @@ These assessments are derived from Google IT Automation with Python from courser
 
 ## Can I copy my code from here?
 
-Yes, even commercially. No need to credit me.
+Yes. No need to credit me.
