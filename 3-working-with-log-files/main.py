@@ -21,7 +21,7 @@ with open('errors.log', 'r') as error_logs_file:
             'id': result[4],
             'message': result[5]
         }
-
+        print(result[2], result[3], result[4], result[5], sep=" || ")
         access_errors.append(error_data)
 
 # print(access_errors)
