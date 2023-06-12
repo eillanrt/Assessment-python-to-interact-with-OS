@@ -35,16 +35,16 @@ with open('accounts.csv', 'r') as accounts:
                             'Name', 'Email Address', 'Occupation'])
     for account in reader:
         old_email_address = account.get('Email Address')
-        updated_email_address = change_domain(old_email_address, 'yahoo.com')
+        updated_email_address = change_domain(old_email_address, 'example.xyz')
         account['Email Address'] = updated_email_address
         data.append(account)
 
 # Create an updated csv file
 
-with open('accounts_updated.csv', 'w') as accounts_updated:
+with open('accounts_updated.csv', 'w', newline='') as accounts_updated:
     writer = csv.DictWriter(accounts_updated, fieldnames=[
                             'Name', 'Email Address', 'Occupation'])
-    writer.writeheader()
+    # writer.writeheader()
 
     for value in data:
         writer.writerow(value)
