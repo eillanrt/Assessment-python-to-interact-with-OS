@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
-from HTML_appender import append_to_html_file
-from generate_html_table import generate_html_table
+from HTMLHandler import append_to_html_file
+from HTMLHandler import generate_html_table
 
 
 def main():
