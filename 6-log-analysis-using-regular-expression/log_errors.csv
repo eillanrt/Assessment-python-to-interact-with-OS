@@ -1,0 +1,11 @@
+Errors,Count
+File not found,5
+The ticket was modified while updating,5
+Timeout while retrieving information,2
+Tried to add information to a closed ticket,2
+Connection refused by server,1
+Unable to retrieve data,1
+Permission denied,1
+Out of memory,1
+Connection to DB failed,1
+Permission denied while closing ticket,1

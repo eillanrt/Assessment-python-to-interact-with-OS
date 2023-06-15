@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error Logs</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <h1></h1>
+    <div id="table">
+      <table>
+        <tr>
+          <td class="header">Errors</td>
+          <td class="header">Count</td>
+        </tr>
+        <tr>
+          <td>File not found</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>The ticket was modified while updating</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Timeout while retrieving information</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Tried to add information to a closed ticket</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Connection refused by server</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Unable to retrieve data</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Permission denied</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Out of memory</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Connection to DB failed</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Permission denied while closing ticket</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+    <script>
+      const h1 = document.querySelector('h1')
+      h1.innerText = document.title
+    </script>
+  </body>
+</html>
