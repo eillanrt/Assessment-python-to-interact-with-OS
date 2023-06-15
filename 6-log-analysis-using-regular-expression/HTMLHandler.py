@@ -42,7 +42,8 @@ def generate_html_table(csv_file):
                 html_table += f'\t\t<td{header_class_name if is_header else ""}>{cell}</td>\n'
 
             html_table += '\t</tr>\n'
-            is_header = False
+            if is_header:
+                is_header = False
 
         html_table += '</table>'
 
